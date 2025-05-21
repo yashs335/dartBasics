@@ -1,3 +1,7 @@
+/*
+make a single array from the multidimentaional array and sort it 
+whithout using the loop 
+ */
 void main() {
   var number_sets = [
     [1, 2, 3, 4],
@@ -41,6 +45,7 @@ void main() {
   // }
 
   print("list without sorting : $list");
-  list.sort();
+  // list.sort();
+
   print("list with sorting : $list");
 }
