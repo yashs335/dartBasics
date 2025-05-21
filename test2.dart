@@ -12,10 +12,13 @@ void main() {
   List newList = [];
 
   // newList = a.where((e) => b.contains(e)).toList();
+  // newList = a + b;
+  // Set newset = Set.from(newList);
+  // print(newset);
 
-  var res = a.every((element) {
-    if (b.contains(element)) {
-      if (!newList.contains(element)) newList.add(element);
+  a.every((element) {
+    if (b.contains(element) && !newList.contains(element)) {
+      newList.add(element);
     }
     return true;
   });
