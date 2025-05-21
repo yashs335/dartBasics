@@ -7,3 +7,14 @@ void main(List<String> args) {
     }
   }
 }
+
+/*
+  type of the loop 
+  - while 
+  - for 
+  - for each 
+  - do while (run alteast one time body)
+  
+  we name the loop and use break and continue to break and continue the pertucular loop
+  
+ */
