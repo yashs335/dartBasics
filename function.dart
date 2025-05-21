@@ -2,6 +2,8 @@
 
 import 'dart:convert';
 
+import 'class_declaration.dart';
+
 void main() {
   // assert(false, "Hello world !");
   // TearOff();
